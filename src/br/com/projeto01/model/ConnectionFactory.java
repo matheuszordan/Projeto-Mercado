@@ -7,16 +7,16 @@ public class ConnectionFactory {
 	
 	public Connection getConnection() {
 		
-		String url = "jdbc:mysql://127.0.0.1:3306/dbmercado";
+		String url = "jdbc:mysql:12.5.515/dbmercado";
 		String user = "root";
-		String password = "Pinheiro357";
+		String password = "xxxxxx";
 		
 		try {
 			
 			Class.forName("com.mysql.jdbc.Driver");
 			return DriverManager.getConnection(url,user,password);
 		}catch(Exception Error){
-			throw new RuntimeException("Erro na conex„o"+ Error);
+			throw new RuntimeException("Erro na conex√£o"+ Error);
 			
 		}
 	}
