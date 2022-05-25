@@ -1,0 +1,109 @@
+@charset "ISO-8859-1";
+
+header{
+	background-color:#afbebd;
+	height: 20%;
+	font-size: 36px;
+	padding : 10px 0 ;
+	text-align: center;
+	color:#000000;
+}
+
+body{
+	 background: #8497b0;
+}
+
+
+
+.caixa{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+
+footer{ 
+	text-align: center;
+	padding: 40px 0;
+	
+}
+
+.copyright{
+	color: #000000;
+	font-size: 18px;
+	margin: 20px 0 0 ;
+}
+
+form{
+	margin: 40px 0;
+}
+
+.imagem-header{
+	width: 60%;
+	margin : 20px 0 0 ;
+}
+
+.acoes{
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+	
+}
+
+.acoes li{
+	  display: inline-block;                     
+    text-align: center;                        
+    vertical-align: top;                       
+    margin: 0 1.5%;                             
+    padding: 10px 12px;                          
+    box-sizing: border-box;                     
+    border:2px solid #000000;                 
+    border-radius: 10px;   
+    width: 200px;
+    height: 250px;
+}
+
+
+
+.acoes h2{
+	font-size: 30px;
+	font-weight: bold;
+	padding: 25px 0;
+}
+
+header p{
+	font-size: 30px;
+	font: bold;
+	text-align: center;
+}
+
+.acoes a {
+    text-transform: uppercase;                  
+    color: #000000;                           
+    font-weight: bold;                         
+    font-size: 22px;                           
+    text-decoration: none;                    
+
+}
+
+.acoes a:hover{                                   
+    color: #C78C19;                            
+    text-decoration: underline;                
+}
+
+.acoes li:hover{
+    border-color: #C78C19;
+   }
+   
+ label{
+ 	font-size: 20px;
+ 	font-weight:bold;
+ }
+ 
+ h1{
+	font-size: 36px;
+	padding : 10px 0 ;
+	text-align: center;
+	color:#000000;
+	
+}
